@@ -8,7 +8,7 @@ server:
   port: 8201
 spring:
   profiles: dev  #开发环境
-  appliction: 
+  application: 
     name: smart-config-client 
 eureka: 
   client: 
@@ -21,7 +21,7 @@ server:
   port: 8202
 spring:
   profiles: test  #开发环境
-  appliction: 
+  application: 
     name: smart-config-client 
 eureka: 
   client: 
